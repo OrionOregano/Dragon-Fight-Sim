@@ -4,4 +4,4 @@ we initially swapped a zip file around on discord prior to uploading it here.
 Javastrophe Group Members :
 Satetawut Kosintrakarn (Atom) #6838312121
 Vathadee Chokwatana (Web) #6838283621
-Elena-Alexandra Ciobotaru (Nickname) #6802027529
+Elena-Alexandra Ciobotaru (Alexandra) #6802027529
