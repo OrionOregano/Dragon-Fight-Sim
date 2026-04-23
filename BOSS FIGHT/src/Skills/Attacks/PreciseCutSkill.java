@@ -25,7 +25,7 @@ public class PreciseCutSkill implements Skill {
 
         Character target = alive.get(new Random().nextInt(alive.size()));
 
-        int base = user.attack + 3 - target.defense;
+        int base = user.attack + 4 - target.defense;
         base = Math.max(base, 1);
         int dmg = base;
         boolean crit = r.nextDouble() < 0.5;
