@@ -29,7 +29,7 @@ public class CrossSlashSkill implements Skill {
 
             Character target = alive.get(new Random().nextInt(alive.size()));
 
-            int dmg = Math.max(user.attack + 2 - target.defense, 1);
+            int dmg = Math.max(user.attack - target.defense, 1);
 
             GamePrinter.println(user.name + " uses Cross Slash!");
 
