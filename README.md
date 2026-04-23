@@ -9,3 +9,56 @@ Javastrophe Group Members :
 Satetawut Kosintrakarn (Atom) #6838312121
 Vathadee Chokwatana (Web) #6838283621
 Elena-Alexandra Ciobotaru (Alexandra) #6802027529
+
+Boss-Fight-Simulator
+└── src
+    ├── Characters
+    │   ├── Character
+    │   ├── CharacterCreator
+    │   └── CharacterFactory
+    │
+    ├── Game
+    │   └── Main
+    │
+    ├── Manager
+    │   ├── GamePrinter
+    │   ├── InputUtil
+    │   ├── StatusDisplay
+    │   │
+    │   ├── MainLoop
+    │   │   ├── GameLoop
+    │   │   ├── GameManager
+    │   │   ├── GameSetup
+    │   │   └── GameState
+    │   │
+    │   └── TurnLogic
+    │       ├── BossAI
+    │       └── TurnHandler
+    │
+    └── Skills
+        ├── Skill (interface)
+        │
+        ├── Attacks
+        │   ├── ChaosSkill
+        │   ├── CrossSlashSkill
+        │   ├── FireBreathSkill
+        │   ├── FireballSkill
+        │   ├── HolyPierceSkill
+        │   ├── KnifeThrowSkill
+        │   ├── LifeSapSkill
+        │   ├── MagicMissileSkill
+        │   ├── PreciseCutSkill
+        │   ├── RockThrowSkill
+        │   ├── SlashSkill
+        │   ├── SmashSkill
+        │   └── TailSwipeSkill
+        │
+        ├── Buffs
+        │   ├── ChargeSkill
+        │   └── GuardSkill
+        │
+        └── Healing
+            ├── FirstAidSkill
+            ├── HideSkill
+            ├── HolyBlessingSkill
+            └── MarshallingShoutSkill
