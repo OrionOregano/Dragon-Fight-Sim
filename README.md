@@ -10,6 +10,7 @@ Satetawut Kosintrakarn (Atom) #6838312121
 Vathadee Chokwatana (Web) #6838283621
 Elena-Alexandra Ciobotaru (Alexandra) #6802027529
 
+```
 Boss-Fight-Simulator
 └── src
     ├── Characters
@@ -37,28 +38,7 @@ Boss-Fight-Simulator
     │
     └── Skills
         ├── Skill (interface)
-        │
         ├── Attacks
-        │   ├── ChaosSkill
-        │   ├── CrossSlashSkill
-        │   ├── FireBreathSkill
-        │   ├── FireballSkill
-        │   ├── HolyPierceSkill
-        │   ├── KnifeThrowSkill
-        │   ├── LifeSapSkill
-        │   ├── MagicMissileSkill
-        │   ├── PreciseCutSkill
-        │   ├── RockThrowSkill
-        │   ├── SlashSkill
-        │   ├── SmashSkill
-        │   └── TailSwipeSkill
-        │
         ├── Buffs
-        │   ├── ChargeSkill
-        │   └── GuardSkill
-        │
         └── Healing
-            ├── FirstAidSkill
-            ├── HideSkill
-            ├── HolyBlessingSkill
-            └── MarshallingShoutSkill
+```
