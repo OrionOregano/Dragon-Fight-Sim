@@ -31,7 +31,7 @@ public class CrossSlashSkill implements Skill {
 
             int dmg = Math.max(user.attack + 2 - target.defense, 1);
 
-            GamePrinter.println(user.name + " uses Slash!");
+            GamePrinter.println(user.name + " uses Cross Slash!");
 
             if (user.nextTripleDamage) {
                 dmg *= 3;
