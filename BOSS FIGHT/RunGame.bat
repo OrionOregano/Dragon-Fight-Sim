@@ -2,6 +2,7 @@
 
 if not exist bin mkdir bin
 
-javac -d bin -sourcepath src src/Game.java
+dir /s /b src\*.java > sources.txt
+javac -d bin @sources.txt
 
 pause
